@@ -21,9 +21,9 @@ li{
 }
 
 body{
-background-image: url('https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcSb93HqOGI0oHn7CSbEYY6FRZ4gQao_G2EnmoZYCFCvsuHb9Jwn');
-background-repeat: no-repeat;
-background-size: cover;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url('https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcS9TDQG9RKkyGqi86RBmWglUcI8Xz98LL-2QZqJ2BgdNbNGS7OSRQ');
 }
 .restaurant-name{
   font-family: 'Architects Daughter', cursive;
@@ -33,8 +33,9 @@ background-size: cover;
 
 }
 .navtop{
-  background-size: cover;
-  background-image: url('https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcS9TDQG9RKkyGqi86RBmWglUcI8Xz98LL-2QZqJ2BgdNbNGS7OSRQ');
+  background-color: beige;
+  // background-size: cover;
+  // background-image: url('https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcS9TDQG9RKkyGqi86RBmWglUcI8Xz98LL-2QZqJ2BgdNbNGS7OSRQ');
 }
 .navtop  a{
   font-size: 60px;
@@ -53,20 +54,27 @@ background-size: cover;
 
 .infobar{
   font-size: 24px;
-  border: 5px solid #296EB1;
-  border-right: 1px solid white;
+  // border: 5px solid #296EB1;
   background-color: #296EB1;
   color: white;
   padding: 0px 10px 0px 10px;
-  border-radius: 8px;
+  margin-right: -5px;
+  border-top-right-radius:  50px;
+  border-bottom-right-radius:  50px;
+  border-right: 4px solid white;
+
 
 }
 
 .item-listing{
-  color: white;
+  color: black;
   font-size: 30px;
   font-weight: bolder;
   font-style: oblique;
+}
+
+.itemitem{
+  font-size: 18px;
 }
 
 .catchyorder{
@@ -94,10 +102,10 @@ background-size: cover;
 // justify-content: center;
 // }
 .jumbotron{
-  opacity: .9;
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-image: url('https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcS9TDQG9RKkyGqi86RBmWglUcI8Xz98LL-2QZqJ2BgdNbNGS7OSRQ');
+  background-color: beige;
+  // background-repeat: no-repeat;
+  // background-size: cover;
+  // background-image: url('https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcS9TDQG9RKkyGqi86RBmWglUcI8Xz98LL-2QZqJ2BgdNbNGS7OSRQ');
 }
 
 .jumbotron h1{

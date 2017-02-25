@@ -16,11 +16,11 @@ var FoodContainer = React.createClass({
   componentWillMount: function(){
     var newFoodCollection = this.state.foodCollection;
     newFoodCollection.add([
-      {foodItem: 'Pizza', description: 'Description :: Bread with melted cheese and other food on top', price: 10.00},
-      {foodItem: 'Sub Sandwich', description: 'Description :: Two pieces of bread with other food in the middle', price: 5.00},
+      {foodItem: 'Pizza', description: 'Description :: Bread with melted cheese and other food on top', price: 16.25},
+      {foodItem: 'Sub Sandwich', description: 'Description :: Two pieces of bread with other food in the middle', price: 5.15},
       {foodItem: 'Drink', description: 'Description :: Cardboard cup with sugary carbonated beverage of your choice', price: 1.95},
-      {foodItem: 'Calzone', description: 'Description :: Ball of bread with pizza inside', price: 8.00},
-      {foodItem: 'Panaeng', description: 'Pork, Chicken or Beef.', price: 8.59},
+      {foodItem: 'Calzone', description: 'Description :: Ball of bread with pizza inside', price: 8.25},
+      {foodItem: 'Pretzel', description: 'Bread tied in a knot with big salt on it', price: 3.49},
     ]);
     this.setState({foodCollection: newFoodCollection});
     console.log(newFoodCollection);
@@ -107,12 +107,11 @@ var FoodForm = React.createClass({
           <span className="item-listing"> {foodProps.get('foodItem')} </span>
             <ul className="item-price well">
               <li> Price </li>
-              <li className="">{foodProps.get('price')}</li>
+              <li className="itemitem">{foodProps.get('price')}</li>
                 <p className="item-description"> {foodProps.get('description')}</p>
+                  <span><button type="button" className="btn btn-default btn-xs" onClick={() => {self.props.addOrderItem(foodProps)}}>Add To Order</button></span>
+
             </ul>
-            <button type="button" className="btn btn-default btn-xs" onClick={() => {self.props.addOrderItem(foodProps)}}>Add To Order</button>
-
-
         </div>
       );
     });
