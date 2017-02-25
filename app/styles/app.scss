@@ -1,0 +1,105 @@
+
+// Bootstrap Variables
+$icon-font-path: '../../node_modules/bootstrap-sass/assets/fonts/bootstrap/';
+
+// Import Bootstrap
+@import '../../node_modules/bootstrap-sass/assets/stylesheets/bootstrap';
+
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+img {
+  max-width: 100%;
+}
+
+li{
+  list-style: none;
+}
+
+body{
+background-image: url('https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcSb93HqOGI0oHn7CSbEYY6FRZ4gQao_G2EnmoZYCFCvsuHb9Jwn');
+background-repeat: no-repeat;
+background-size: cover;
+}
+.restaurant-name{
+  font-family: 'Architects Daughter', cursive;
+  font-size: 70px;
+
+  padding: 20px 40px 20px 40px;
+
+}
+.navtop{
+  background-size: cover;
+  background-image: url('https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcS9TDQG9RKkyGqi86RBmWglUcI8Xz98LL-2QZqJ2BgdNbNGS7OSRQ');
+}
+.navtop  a{
+  font-size: 60px;
+  // background-image: url('https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcSb93HqOGI0oHn7CSbEYY6FRZ4gQao_G2EnmoZYCFCvsuHb9Jwn');
+  color: white;
+  // padding: 20px 0px 20px 40px;
+  font-family: 'Mr Dafoe', cursive;
+  bottom: -50px;
+  border-radius: 12px;
+  border-left: 1px dotted black;
+  border-right: 1px dotted black;
+  margin-right: 40px;
+
+}
+
+
+.infobar{
+  font-size: 24px;
+  border: 5px solid #296EB1;
+  border-right: 1px solid white;
+  background-color: #296EB1;
+  color: white;
+  padding: 0px 10px 0px 10px;
+  border-radius: 8px;
+
+}
+
+.item-listing{
+  color: white;
+  font-size: 30px;
+  font-weight: bolder;
+  font-style: oblique;
+}
+
+.catchyorder{
+  font-size: 40px;
+  color: blue;
+}
+.menu-btn-group{
+  margin-left: 15px;
+
+}
+
+.menu-btn{
+  margin: 5px 0px 5px 0px;
+  border-radius: 10px;
+}
+
+.order-window{
+  margin-top: 60px;
+  font-size: 36px;
+  font-family: helvetica;
+}
+
+// .menu-window{
+//   display: flex;
+// justify-content: center;
+// }
+.jumbotron{
+  opacity: .9;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url('https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcS9TDQG9RKkyGqi86RBmWglUcI8Xz98LL-2QZqJ2BgdNbNGS7OSRQ');
+}
+
+.jumbotron h1{
+  font-family: 'Architects Daughter', cursive;
+}
